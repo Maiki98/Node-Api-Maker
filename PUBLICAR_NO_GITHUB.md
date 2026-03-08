@@ -1,7 +1,5 @@
 # 📦 Sistema de Gerenciamento de Pedidos - Publicar no GitHub
 
-## ✅ Tudo foi traduzido para Português PT-BR!
-
 Este é um sistema completo de gerenciamento de pedidos construído com:
 - **Backend**: Node.js + Express + TypeScript + PostgreSQL + Drizzle ORM
 - **Frontend**: React + TypeScript + Tailwind CSS + Shadcn UI
@@ -224,34 +222,3 @@ npm run build     # Build para produção
 npm run db:push   # Sincronizar schema com banco
 npm run db:studio # Interface visual do banco (Drizzle Studio)
 ```
-
----
-
-## ✅ Critérios de Avaliação
-
-- ✅ **Funcionalidade Completa** - Todos os endpoints implementados e funcionando
-- ✅ **Código Bem Organizado** - Estrutura clara com separação de responsabilidades
-- ✅ **Convenções de Nomenclatura** - Nomes descritivos em português
-- ✅ **Tratamento de Erros** - Mensagens claras e HTTP status adequados
-- ✅ **Respostas HTTP Corretas** - 201 para criação, 200 para sucesso, 404 para não encontrado
-- ✅ **Código no GitHub** - Com commits organizados e mensagens claras
-
----
-
-## 📞 Suporte
-
-Para dúvidas ou problemas:
-1. Verifique se PostgreSQL está rodando
-2. Confirme a DATABASE_URL em suas variáveis de ambiente
-3. Execute `npm run db:push` para sincronizar o schema
-4. Verifique os logs em `npm run dev`
-
----
-
-## 📄 Licença
-
-Este projeto está disponível para uso educacional e comercial.
-
----
-
-**Desenvolvido com ❤️ em Português PT-BR**
